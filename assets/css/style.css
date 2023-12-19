@@ -11261,7 +11261,7 @@ body.template-color-1 {
 }
 .logo a img {
   transition: 0.3s;
-  width: 7rem;
+  max-height: 74px;
 }
 .logo a span {
   font-family: var(--font-secondary);
@@ -12183,6 +12183,9 @@ button.rn-btn.btn-transparent::before {
 a.rn-btn.thumbs-icon svg,
 button.rn-btn.thumbs-icon svg {
   margin-top: -7px;
+}
+.twitter_x img {
+  width: 2.3rem;
 }
 
 .button-style .main-page-wrapper {
