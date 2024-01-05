@@ -1,6 +1,6 @@
 const projects = [
   {
-    name: 'Earthbnb-frontend',
+    name: 'Earthbnb',
     description: `This web application is built to enable users browser 
     through different houses which they can reserve on choice basis. The 
     users can add their own houses to let other users reserve that for 
