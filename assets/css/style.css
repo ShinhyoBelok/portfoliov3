@@ -14340,7 +14340,7 @@ div#featured-project-carousel {
   border-radius: 10px;
   background: var(--background-color-1);
   box-shadow: var(--shadow-1);
-  justify-content: space-between;
+  justify-content: space-around;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rn-nav-list {
@@ -14604,10 +14604,13 @@ div#featured-project-carousel {
   font-weight: 500;
 }
 .personal-experience-inner .experience-list .resume-single-list .inner p {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 20px;
   color: var(--color-body);
   transition: var(--transition);
+}
+.personal-experience-inner .experience-list .resume-single-list .inner p strong {
+  color: #ff1c60;
 }
 .personal-experience-inner .experience-list .resume-single-list .inner.psudo-after-none::after {
   display: none;
